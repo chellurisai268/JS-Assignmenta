@@ -1,0 +1,24 @@
+<html>
+    <head></head>
+    <body>
+        <!-- write a program to print only even digits of a given number the output should be 4,2,6 ex:let us take 154256? -->
+        <script>
+             var num=+prompt()
+             var rem;
+             var sum=0;
+             while(num)
+             {
+               rem=num%10;
+               sum=sum*10+rem;
+               num=parseInt(num/10) 
+             }
+             while(sum){
+                rem=sum%10;
+               if(rem%2==0){
+                console.log(rem)
+               }
+                sum=parseInt(sum/10)
+             }
+        </script>
+    </body>
+</html>

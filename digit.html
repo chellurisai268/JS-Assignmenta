@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var num=+prompt()
+            var rem;
+            var sum=0;
+            while(num)
+            {
+                rem=num%10;
+                sum=sum*10+rem;
+                num=parseInt(num/10)
+            }
+            while(sum)
+            {
+                rem=sum%10;
+                console.log(rem)
+                sum=parseInt(sum/10)
+            }
+        </script>
+    </body>
+</html>

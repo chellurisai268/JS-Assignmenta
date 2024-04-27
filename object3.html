@@ -1,0 +1,228 @@
+<html>
+    <head></head>
+    <body>
+        1
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var count=0;
+            for(var a in marks)
+            {
+                count=count+1;
+            }
+            console.log(count)
+        </script>
+        2
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var p=0;
+            for(var a in marks)
+            {
+                p=(marks[a]/500)*100;
+            }
+            console.log(p)
+        </script>
+        3
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            for(var a in marks)
+            {
+                if(marks[a]>35)
+                {
+                    console.log(a)
+                }
+            }
+        </script>
+        4
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            for(var a in marks)
+            {
+                if(marks[a]>=35)
+                {
+                    console.log('pass')
+                }
+                else{
+                    console.log('fail')
+                }
+            }
+        </script>
+        5
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            for(var a in marks)
+            {
+                if(marks[a]>=35)
+                {
+                    console.log(a)
+                }
+            }
+        </script>
+        6
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var count=0;
+            for(var a in marks)
+            {
+                if(marks[a]>=35)
+                {
+                    count=count+1;
+                }
+            }
+            console.log(count)
+        </script>
+        7
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            for(var a in marks)
+            {
+                if(marks[a]<=35)
+                {
+                    console.log(a)
+                }
+            }
+        </script>
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var count=0;
+            for(var a in marks)
+            {
+                if(marks[a]<=35)
+                {
+                    count=count+1;
+                }
+            }
+            console.log(count)
+        </script>
+        8
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var min=Infinity;
+            var b;
+            for(var a in marks)
+            {
+                if(min>marks[a])
+                {
+                    min=marks[a];
+                    b=a
+                }
+            }
+            console.log(min,b)
+        </script>
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var max=-Infinity;
+            var b;
+            for(var a in marks)
+            {
+                if(max<marks[a])
+                {
+                    max=marks[a];
+                    b=a
+                }
+            }
+            console.log(max,b)
+        </script>
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var count=0;
+            for(var a in marks)
+            {
+                if(marks[a]>=35){
+                    count=count+1;
+                }
+                if(count=5)
+                {
+                    console.log("Passed in all the subject")
+                }
+                else
+                {
+                    console.log("not passed in all the subject")
+                }
+            }
+        </script>
+        <script>
+            var marks={
+                'maths':34,
+                'english':56,
+                'science':32,
+                'hindi':75,
+                'social science':65
+            };
+            var a=prompt();
+            if(35<marks[a])
+            {
+                console.log(marks[a],'pass')
+            }
+            else{
+                console.log(marks[a],'fail')
+            }
+            // console.log(marks[a])
+        </script>
+    </body>
+</html>

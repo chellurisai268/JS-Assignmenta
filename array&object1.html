@@ -1,0 +1,135 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+           var people = [
+{
+"firstname": "praveen",
+"lastname": "gubbala",
+"age": 36,
+"gender": "male",
+"city": "hyd",
+"salary": 10000
+},
+{
+"firstname": "srikanth",
+"lastname": "gubbala",
+"age": 32,
+"gender": "male",
+"city": "bengaluru",
+"salary": 20000
+},
+{
+"firstname": "pradeep",
+"lastname": "reddy",
+"age": 21,
+"gender": "male",
+"city": "hyd",
+"salary": 25000
+},
+{
+"firstname": "mounika",
+"lastname": "mudiraj",
+"age": 20,
+"gender": "female",
+"city": "nalgonda",
+"salary": 30000
+},
+{
+"firstname": "nikhil",
+"lastname": "m",
+"age": 22,
+"gender": "male",
+"city": "guntur",
+"salary": 2000
+},
+{
+"firstname": "riya",
+"lastname": "bhadouria",
+"age": 14,
+"gender": "female",
+"city": "indore",
+"salary": 40000
+}
+];
+for(var i=0;i<=people.length-1;i++) 
+{
+    console.log(people[i]['firstname'])
+}
+        </script>
+        <script>
+            for(var i=0;i<=people.length-1;i++)
+            {
+                console.log(people[i]['firstname']+people[i]['lastname'])
+            }
+        </script>
+        <script>
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['age']>=25)
+                {
+                    console.log(people[i]['firstname'])
+                }
+            }
+        </script>
+        <script>
+            for(var i=0;i<=people.length-1;i++)
+            {
+               if(people[i]['gender']==['female']) 
+               {
+                console.log(people[i]['firstname'])
+               }
+            }
+        </script>
+
+        <script>
+            var increment=25000;
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['salary']>=25000)
+                {
+                    console.log(people[i]['firstname'],increment+3750)
+                
+                }
+            }
+            // console.log(increment+3750)
+        </script>
+        <script>
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['salary']>25000*(115/100))
+                {
+                    console.log(people[i]['firstname'])
+                }
+            }
+        </script>
+        <script>
+            var a=prompt();
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['city']=='hyd')
+                {
+                    console.log(people[i]['firstname'])
+                }
+            }
+        </script>
+        <script>
+            var sum=0;
+            for(var i=0;i<=people.length-1;i++)
+            {
+                sum=sum+people[i]['salary'];
+            }
+            console.log(sum)
+        </script>
+        <script>
+
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['age']>=25)
+                {
+                    console.log(people[i]['firstname']+people[i]['lastname'])
+                }
+            }
+        </script>
+    </body>
+</html>
